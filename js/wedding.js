@@ -1,9 +1,9 @@
 // All wedding details live here. Edit this file only to change facts.
 export const WEDDING = {
   groom: { km: 'សុខ នរិន្ទ', en: 'Sok Norint', short: { km: 'នរិន្ទ', en: 'Norint' },
-    father: 'សុខ ប៊ុនថាវុធ', mother: 'លឹម ពៅ' },
+    father: 'សុខ ប៊ុនថាវុធ', en: 'Sok Bunthavuth' ,mother: 'លឹម ពៅ', en: 'Lim Peou' },
   bride: { km: 'ទូច សុធីតា', en: 'Touch Sothida', short: { km: 'សុធីតា', en: 'Sothida' },
-    father: 'ទូច វណ្ណា', mother: 'ទេព ចាន់ស៊ីណារី' },
+    father: 'ទូច វណ្ណា', en: 'Touch Vanna', mother: 'ទេព ចាន់ស៊ីណារី', en: 'Tep Chansinary' },
   date: { y: 2026, m: 12, d: 7, weekdayKm: 'ចន្ទ', weekdayEn: 'Monday' },
   lunarKm: 'ត្រូវនឹងថ្ងៃ១៣រោច ខែកត្តិក ឆ្នាំមមី អដ្ឋស័ក ព.ស. ២៥៧០',
   lunarEn: null, // not provided: the English page simply omits the lunar line
