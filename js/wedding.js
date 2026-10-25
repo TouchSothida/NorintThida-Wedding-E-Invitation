@@ -11,7 +11,7 @@ export const WEDDING = {
   programme: [
     { t: '06:30', km: 'ជួបជុំភ្ញៀវកត្តិយស', en: 'Guest Gathering', icon: 'tray' },
     { t: '07:00', km: 'ពិធីហែជំនូន', en: 'Dowry Procession', icon: 'tray' },
-    { t: '07:30', km: 'ពិធីបំពាក់ចិញ្ជៀន', en: 'Ring Ceremony', icon: 'ring' },
+    { t: '07:30', km: 'ពិធីបំពាក់ចិញ្ចៀន', en: 'Ring Ceremony', icon: 'ring' },
     { t: '08:00', km: 'ពិធីសូត្រមន្ត', en: 'Chanting Ceremony', icon: 'chant' },
     { t: '09:00', km: 'ពិធីកាត់សក់បង្កក់សិរី', en: 'Hair-Cutting Ceremony', icon: 'scissors' },
     { t: '10:00', km: 'ពិធីសំពះផ្ទឹមចងដៃ និងបង្វិលពពិល', en: 'Bonding, Hand-Tying & Candle Circling', icon: 'knot' },
