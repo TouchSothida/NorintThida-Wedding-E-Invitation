@@ -416,3 +416,13 @@ html[lang=en] .ap-text{font-size:clamp(18px,4.6vw,21px);line-height:1.6}
   .cv-photo{overflow:hidden}
   .cv-photo img{object-fit:cover;object-position:50% var(--fy,40%);transform-origin:var(--fx,50%) var(--fy,40%);transform:scale(var(--pz,1.3))}
 }
+/* === FIX 1: phones show the WHOLE cover photo (nothing cropped or zoomed) === */
+@media (max-aspect-ratio:5/4){
+  .cv-photo img{object-fit:contain;object-position:50% 50%;transform:none}
+}
+
+/* === FIX 2: envelope flap: smaller name logo that stays inside the flap and clear of the wax seal; darker gold so it reads on the pink paper === */
+.flap .f-logo{left:35.5%;width:29%;top:1.5%}
+.flap .f-logo .foil{background-image:linear-gradient(115deg,#7a5214 0%,#b8862c 26%,#e3bd62 44%,#b8862c 62%,#80560f 84%,#b98a34 100%)}
+.flap .f-logo .nl-names .g{left:0}
+.flap .f-logo .nl-names .b{right:0}
