@@ -25,7 +25,7 @@ export const WEDDING = {
     envelopeBg: 'TP108947', coverWide: 'TP109861', invite: 'TP108865', groom: 'groom', bride: 'bride', candle: 'TP109987', thanks: 'TP109911',
   },
   // Where the couple sits in the cover photo (x / y as % of the picture) and how far to zoom in on them.
-  coverFocus: { x: 85, y: 0, desktopZoom: 1.12, phoneZoom: 0.8 },
+  coverFocus: { x: 85, y: 0, desktopZoom: 1.12, phoneZoom: 1 },
   qr: [{ src: 'assets/img/gift-qr.png', label: 'ABA KHQR' }],
   music: 'assets/music.mp3',
   siteUrl: '', // set after deploy; used for share buttons (falls back to the current page address)
