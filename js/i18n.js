@@ -14,7 +14,7 @@ export function fmtTime(t, lang) {
 }
 export const T = {
   km: {
-    envTitle: 'សិរីសួស្តីអាពាហ៍ពិពាហ៍', envSub: 'The Wedding Invitation', tap: 'ចុចត្រាបិទ ដើម្បីបើក',
+    envTitle: 'សិរីសួស្តីអាពាហ៍ពិពាហ៍', envSub: 'The Wedding Invitation', tap: 'ចុចត្រា ដើម្បីបើក',
     blessing: 'សិរីសួស្តីអាពាហ៍ពិពាហ៍', honour: 'សូមគោរពអញ្ជើញ',
     dDay: 'ថ្ងៃ', dDate: 'ទី', dMonth: 'ខែ', dYear: 'ឆ្នាំ', scroll: 'ទាញចុះក្រោម',
     inviteHead: 'សិរីសួស្តីអាពាហ៍ពិពាហ៍',
@@ -25,8 +25,8 @@ export const T = {
     countHead: 'រាប់ថយក្រោយ', cdD: 'ថ្ងៃ', cdH: 'ម៉ោង', cdM: 'នាទី', cdS: 'វិនាទី', cdDone: 'ថ្ងៃមង្គលការមកដល់ហើយ',
     marquee: 'សូមឲ្យមានក្តីសុខ ក្តីស្រលាញ់ និងពរជ័យជានិច្ចកាល',
     progHead: 'កម្មវិធី',
-    candleHead: 'ពន្លឺទៀន', candleHint: 'ប៉ះលើទឹក ដើម្បីបង្កើតរលក និងអណ្តែតគោមផ្កាឈូក',
-    galHead: 'អាល់ប៊ុមរូបភាព', close: 'បិទ',
+    candleHead: 'ពន្លឺទៀន', candleHint: 'ប៉ះលើទឹក ដើម្បីបង្កើតរលក និងបណ្តែតគោមផ្កាឈូក',
+    galHead: 'កម្រងរូបភាព', close: 'បិទ',
     venueHead: 'ទីកន្លែង', openMaps: 'បើក Google Maps', saveCal: 'រក្សាទុកក្នុងប្រតិទិន',
     apologyHead: '<span class="nw">សេចក្តីថ្លែងអំណរគុណ</span> <span class="nw">និងសូមអភ័យទោស</span>', apologyBody: 'យើងខ្ញុំ សូមគោរពថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះវត្តមានដ៏ឧត្តុង្គឧត្តមរបស់ <span class="nw">សម្តេច</span> <span class="nw">ឯកឧត្តម</span> <span class="nw">លោកជំទាវ</span> <span class="nw">លោកអ្នកឧកញ្ញា</span> <span class="nw">អ្នកឧកញ្ញា</span> <span class="nw">ឧកញ្ញា</span> <span class="nw">លោក</span> <span class="nw">លោកស្រី</span> <span class="nw">អ្នកនាង</span> <span class="nw">កញ្ញា</span> ក្នុងសិរីមង្គលអាពាហ៍ពិពាហ៍ <span class="nw">កូនប្រុស</span> <span class="nw">កូនស្រី</span> របស់យើងខ្ញុំនាពេលខាងមុខនេះ។ យើងខ្ញុំសុំការខន្តីអភ័យទោសផងដែរ ករណីដែលយើងខ្ញុំពុំបានជូនលិខិតអញ្ជើញនេះដោយផ្ទាល់ ឬចំពោះកំហុសអក្ខរាវិរុទ្ធក្នុងការសរសេរឈ្មោះ។ សូមមេត្តាទទួលនូវសេចក្តីគោរពដ៏ខ្ពង់ខ្ពស់ពីយើងខ្ញុំ។',
     giftHead: 'ចំណងដៃ', giftSub: 'សូមអរគុណចំពោះក្តីស្រលាញ់របស់លោកអ្នក', saveQr: 'រក្សាទុក QR',
