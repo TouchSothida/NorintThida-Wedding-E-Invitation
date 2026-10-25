@@ -9,7 +9,7 @@ export const WEDDING = {
   lunarEn: null, // not provided: the English page simply omits the lunar line
   tz: '+07:00',
   programme: [
-    { t: '06:30', km: 'ជួបជុំភ្ញៀវកត្តិយស', en: 'Guest Gathering', icon: 'tray' },
+    { t: '06:30', km: 'ជួបជុំភ្ញៀវកិត្តិយស', en: 'Guest Gathering', icon: 'tray' },
     { t: '07:00', km: 'ពិធីហែជំនូន', en: 'Dowry Procession', icon: 'tray' },
     { t: '07:30', km: 'ពិធីបំពាក់ចិញ្ចៀន', en: 'Ring Ceremony', icon: 'ring' },
     { t: '08:00', km: 'ពិធីសូត្រមន្ត', en: 'Chanting Ceremony', icon: 'chant' },
