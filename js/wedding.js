@@ -9,13 +9,13 @@ export const WEDDING = {
   lunarEn: null, // not provided: the English page simply omits the lunar line
   tz: '+07:00',
   programme: [
-    { t: '06:30', km: 'ជួបជុំភ្ញៀវកត្តិយស', en: 'Guest Gathering', icon: 'people' },
+    { t: '06:30', km: 'ជួបជុំភ្ញៀវកត្តិយស', en: 'Guest Gathering', icon: 'tray' },
     { t: '07:00', km: 'ពិធីហែជំនូន', en: 'Dowry Procession', icon: 'tray' },
     { t: '07:30', km: 'ពិធីបំពាក់ចិញ្ជៀន', en: 'Ring Ceremony', icon: 'ring' },
     { t: '08:00', km: 'ពិធីសូត្រមន្ត', en: 'Chanting Ceremony', icon: 'chant' },
     { t: '09:00', km: 'ពិធីកាត់សក់បង្កក់សិរី', en: 'Hair-Cutting Ceremony', icon: 'scissors' },
     { t: '10:00', km: 'ពិធីសំពះផ្ទឹមចងដៃ និងបង្វិលពពិល', en: 'Bonding, Hand-Tying & Candle Circling', icon: 'knot' },
-    { t: '11:00', km: 'អញ្ជើញភ្ញៀវកត្តិយសពិសាអាហារថ្ងៃត្រង់', en: 'Having Lunch', icon: 'foods' }
+    { t: '11:00', km: 'អញ្ជើញភ្ញៀវកត្តិយសពិសាអាហារថ្ងៃត្រង់', en: 'Having Lunch', icon: 'cheers' }
     { t: '11:00', km: 'អញ្ជើញភ្ញៀវកត្តិយសពិសាភោជនាហារ', en: 'Wedding Banquet', icon: 'cheers' },
   ],
   venue: { km: 'The Premier Centre Sen Sok, Building H', en: 'The Premier Centre Sen Sok, Building H', lat: 11.60054, lng: 104.88305 },
