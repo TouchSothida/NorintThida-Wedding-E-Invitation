@@ -177,13 +177,6 @@ ${FOIL_DEFS}
     </div>
   </section>
 
-  <section class="sec sec-cream" id="gift">
-    ${cornerDiv('tl', 0, 0)}${cornerDiv('br', 1, 1)}
-    <h2 class="h2 foil" data-r data-t="giftHead"></h2>
-    <p class="sub" data-r data-t="giftSub"></p>
-    <div class="qrs">${W.qr.map((q, i) => `<div class="qr-wrap" data-r><div class="qr"><img src="${q.src}" alt="${q.label}" loading="lazy"></div><a class="btn solid" download="gift-qr.png" href="${q.src}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 4v11M7.500 10.500 12 15l4.500-4.500M5 19.500h14"/></svg><span data-t="saveQr"></span></a></div>`).join('')}</div>
-  </section>
-
   <section class="sec sec-blush apology" id="apology">
     ${cornerDiv('tl', 0, 0)}${cornerDiv('br', 1, 1)}
     <div class="note" data-r>
