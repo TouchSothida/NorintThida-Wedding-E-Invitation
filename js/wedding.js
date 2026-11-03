@@ -26,7 +26,6 @@ export const WEDDING = {
   },
   // Where the couple sits in the cover photo (x / y as % of the picture) and how far to zoom in on them.
   coverFocus: { x: 85, y: 0, desktopZoom: 1.12, phoneZoom: 1 },
-  qr: [{ src: 'assets/img/gift-qr.png', label: 'ABA KHQR' }],
   music: 'assets/music.mp3',
   siteUrl: '', // set after deploy; used for share buttons (falls back to the current page address)
 };
